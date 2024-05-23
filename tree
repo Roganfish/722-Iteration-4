@@ -1,0 +1,1896 @@
+digraph Tree {
+node [shape=box] ;
+GBTRegressionModel: uid=GBTRegressor_f63c4224362e, numTrees=100, numFeatures=8
+  Tree 0  weight 1.0 :
+    If  Population <= 4537284.5 
+     If  Population <= 994965.5 
+      If  Gross tertiary education enrollment  %  <= 0.495 
+       Predict: 6.552858739E9
+      Else  Gross tertiary education enrollment  %  > 0.495 
+       Predict: 3.154057987E9
+     Else  Population > 994965.5 
+      If  Gross tertiary education enrollment  %  <= 0.796 
+       Predict: 5.7078856278E10
+      Else  Gross tertiary education enrollment  %  > 0.796 
+       Predict: 3.4117202555E10
+    Else  Population > 4537284.5 
+     If  Population: Labor force participation  %  <= 0.6065 
+      If  Physicians per thousand <= 3.91 
+       Predict: 2.68761201365E11
+      Else  Physicians per thousand > 3.91 
+       Predict: 2.42087660565E11
+     Else  Population: Labor force participation  %  > 0.6065 
+      If  Gross tertiary education enrollment  %  <= 0.8494999999999999 
+       Predict: 3.814548574118E11
+      Else  Gross tertiary education enrollment  %  > 0.8494999999999999 
+       Predict: 4.46314739528E11
+  Tree 1  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Population: Labor force participation  %  <= 0.611 
+       Predict: 1.3346787044E9
+      Else  Population: Labor force participation  %  > 0.611 
+       Predict: 2.0887662646400024E10
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  CPI <= 110.5 
+       Predict: -6.6753677895599976E10
+      Else  CPI > 110.5 
+       Predict: -5.091610673519995E9
+    Else  CPI > 119.19999999999999 
+     Predict: 4.3763012448400024E10
+  Tree 2  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians per thousand <= 3.5700000000000003 
+       Predict: -4.5873916890496E9
+      Else  Physicians per thousand > 3.5700000000000003 
+       Predict: -5.340294231647998E10
+     Else  Physicians in Rural > 2988.0 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 2.3110084891119995E10
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 3.0365676519813232E9
+    Else  CPI > 119.19999999999999 
+     Predict: 3.501040995871997E10
+  Tree 3  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians per thousand <= 4.87 
+       Predict: 7.203346626487845E9
+      Else  Physicians per thousand > 4.87 
+       Predict: -9.677419131276245E9
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Agricultural Land  %  <= 0.35950000000000004 
+       Predict: -3.7657269482885485E9
+      Else  Agricultural Land  %  > 0.35950000000000004 
+       Predict: -4.272235385318396E10
+    Else  CPI > 119.19999999999999 
+     Predict: 2.8008327966975952E10
+  Tree 4  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Physicians in Rural <= 2988.0 
+      If  Population <= 3077723.0 
+       Predict: -7.189388135980091E8
+      Else  Population > 3077723.0 
+       Predict: -2.5136798532987732E10
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.6074999999999999 
+       Predict: 1.0866197743524537E9
+      Else  Population: Labor force participation  %  > 0.6074999999999999 
+       Predict: 1.2654795537512268E10
+    Else  CPI > 119.19999999999999 
+     Predict: 2.240666237358081E10
+  Tree 5  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians per thousand <= 3.5700000000000003 
+       Predict: -2.6737916960688868E9
+      Else  Physicians per thousand > 3.5700000000000003 
+       Predict: -2.915052337594959E10
+     Else  Physicians in Rural > 2988.0 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 1.4516439480095947E10
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 1.6796187462222595E9
+    Else  CPI > 119.19999999999999 
+     Predict: 1.7925329898864624E10
+  Tree 6  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  CPI <= 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 1.1613151584076782E10
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 4.600268425995209E9
+     Else  CPI > 110.1 
+      If  Population: Labor force participation  %  <= 0.6174999999999999 
+       Predict: -1.6249221459777176E8
+      Else  Population: Labor force participation  %  > 0.6174999999999999 
+       Predict: -1.6927007319188354E10
+    Else  CPI > 119.19999999999999 
+     Predict: 1.4340263919091675E10
+  Tree 7  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 9.290521267261475E9
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 3.6802147407961426E9
+     Else  CPI > 110.1 
+      If  CPI <= 110.5 
+       Predict: -1.9935017236921997E10
+      Else  CPI > 110.5 
+       Predict: -3.0331736315384293E9
+    Else  CPI > 115.45 
+     If  Population: Labor force participation  %  <= 0.6174999999999999 
+      If  Physicians per thousand <= 4.37 
+       Predict: 4.683746204627701E9
+      Else  Physicians per thousand > 4.37 
+       Predict: 6.434047327700195E8
+     Else  Population: Labor force participation  %  > 0.6174999999999999 
+      Predict: 1.1472211135273315E10
+  Tree 8  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 7.432417013809204E9
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 2.94417179263694E9
+     Else  CPI > 110.1 
+      If  Urban_population <= 4918433.0 
+       Predict: -9.040596100101376E7
+      Else  Urban_population > 4918433.0 
+       Predict: -1.0048541125639322E10
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 2.96 
+      Predict: 9.177768908218628E9
+     Else  Physicians per thousand > 2.96 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 5.030752761305298E9
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: 1.488982476157547E9
+  Tree 9  weight 0.1 :
+    If  Agricultural Land  %  <= 0.536 
+     If  CPI <= 119.19999999999999 
+      If  Urban_population <= 7320367.5 
+       Predict: -7.24980446783374E8
+      Else  Urban_population > 7320367.5 
+       Predict: 4.985267910045807E9
+     Else  CPI > 119.19999999999999 
+      Predict: 7.342215126574951E9
+    Else  Agricultural Land  %  > 0.536 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      Predict: 3.150378638793579E9
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      Predict: -1.393830556440979E10
+  Tree 10  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Physicians per thousand <= 2.96 
+      Predict: 5.87377210126001E9
+     Else  Physicians per thousand > 2.96 
+      If  Urban_population <= 1224798.5 
+       Predict: -3.7414381947039634E8
+      Else  Urban_population > 1224798.5 
+       Predict: 1.9872881826689987E9
+    Else  Population > 5611941.5 
+     If  Urban_population <= 7320367.5 
+      If  Urban_population <= 5157197.0 
+       Predict: -1.1150644451527832E10
+      Else  Urban_population > 5157197.0 
+       Predict: -3.17542585935671E9
+     Else  Urban_population > 7320367.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 4.948880029038208E9
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 3.027548627035095E9
+  Tree 11  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 3.959104023230591E9
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 1.715339978374771E9
+     Else  CPI > 110.1 
+      If  Population <= 5611941.5 
+       Predict: 2.9428484342968225E7
+      Else  Population > 5611941.5 
+       Predict: -5.84618205863031E9
+    Else  CPI > 115.45 
+     If  CPI <= 119.19999999999999 
+      If  Physicians per thousand <= 4.37 
+       Predict: 2.1675110126592255E9
+      Else  Physicians per thousand > 4.37 
+       Predict: 9.970085522125244E8
+     Else  CPI > 119.19999999999999 
+      Predict: 4.699017681008057E9
+  Tree 12  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  Physicians per thousand <= 3.3200000000000003 
+       Predict: 1.372271982699829E9
+      Else  Physicians per thousand > 3.3200000000000003 
+       Predict: 3.1672832185844727E9
+     Else  CPI > 110.1 
+      If  Physicians per thousand <= 3.91 
+       Predict: -4.9767253989845335E8
+      Else  Physicians per thousand > 3.91 
+       Predict: -5.7241515456614685E9
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 2.96 
+      Predict: 3.7592141448063965E9
+     Else  Physicians per thousand > 2.96 
+      If  Physicians per thousand <= 4.37 
+       Predict: 1.7340088101273727E9
+      Else  Physicians per thousand > 4.37 
+       Predict: 7.976068417700195E8
+  Tree 13  weight 0.1 :
+    If  Agricultural Land  %  <= 0.536 
+     If  Population: Labor force participation  %  <= 0.5894999999999999 
+      If  Physicians per thousand <= 3.045 
+       Predict: 6.903122900335236E8
+      Else  Physicians per thousand > 3.045 
+       Predict: -2.4437035824000854E9
+     Else  Population: Labor force participation  %  > 0.5894999999999999 
+      If  Physicians per thousand <= 2.605 
+       Predict: -2.482999341410034E9
+      Else  Physicians per thousand > 2.605 
+       Predict: 1.4726525217818055E9
+    Else  Agricultural Land  %  > 0.536 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      Predict: 1.505322882286255E9
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      Predict: -6.606448840363892E9
+  Tree 14  weight 0.1 :
+    If  Agricultural Land  %  <= 0.536 
+     If  Population: Labor force participation  %  <= 0.5894999999999999 
+      If  Physicians per thousand <= 3.045 
+       Predict: 5.52249832026825E8
+      Else  Physicians per thousand > 3.045 
+       Predict: -1.9549628659200592E9
+     Else  Population: Labor force participation  %  > 0.5894999999999999 
+      If  Population: Labor force participation  %  <= 0.6725 
+       Predict: 1.1781220174254527E9
+      Else  Population: Labor force participation  %  > 0.6725 
+       Predict: -1.9863994731280518E9
+    Else  Agricultural Land  %  > 0.536 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      Predict: 1.2042583058289795E9
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      Predict: -5.285159072291138E9
+  Tree 15  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians per thousand <= 3.5700000000000003 
+       Predict: -3.5683411732507306E8
+      Else  Physicians per thousand > 3.5700000000000003 
+       Predict: -4.2281272578328857E9
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 1.0199222427820923E9
+      Else  Physicians per thousand > 4.87 
+       Predict: -7.822648887279053E8
+    Else  CPI > 119.19999999999999 
+     Predict: 2.477216408003662E9
+  Tree 16  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians per thousand <= 4.87 
+       Predict: 7.195126923197525E8
+      Else  Physicians per thousand > 4.87 
+       Predict: -1.51600736528479E9
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  CPI <= 110.5 
+       Predict: -3.3825018062663574E9
+      Else  CPI > 110.5 
+       Predict: -8.422325384000448E8
+    Else  CPI > 115.45 
+     If  Population: Labor force participation  %  <= 0.6174999999999999 
+      If  Physicians per thousand <= 4.37 
+       Predict: 7.907433277147446E8
+      Else  Physicians per thousand > 4.37 
+       Predict: 2.6438354332019043E8
+     Else  Population: Labor force participation  %  > 0.6174999999999999 
+      Predict: 1.981773126402954E9
+  Tree 17  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  Population <= 5611941.5 
+      If  Population: Labor force participation  %  <= 0.586 
+       Predict: -5.60877016347786E8
+      Else  Population: Labor force participation  %  > 0.586 
+       Predict: 6.28854864583687E8
+     Else  Population > 5611941.5 
+      If  Physicians per thousand <= 5.145 
+       Predict: -1.7560378615327759E9
+      Else  Physicians per thousand > 5.145 
+       Predict: 2.1150683465612793E8
+    Else  Urban_population > 7320367.5 
+     If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+      Predict: 1.6557846800057373E9
+     Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+      Predict: 7.494469151298828E8
+  Tree 18  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 1.3246277440046387E9
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 3.4791848329837036E8
+     Else  CPI > 110.1 
+      If  CPI <= 110.5 
+       Predict: -2.354793872706543E9
+      Else  CPI > 110.5 
+       Predict: -3.806754670377019E8
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 2.96 
+      Predict: 1.4596475282055664E9
+     Else  Physicians per thousand > 2.96 
+      If  Physicians per thousand <= 4.37 
+       Predict: 4.9476448420041656E8
+      Else  Physicians per thousand > 4.37 
+       Predict: 1.6920546772485352E8
+  Tree 19  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians per thousand <= 4.87 
+       Predict: 4.059867124984045E8
+      Else  Physicians per thousand > 4.87 
+       Predict: -7.854632265137329E8
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Physicians in Rural <= 2988.0 
+       Predict: -1.2777183648093872E9
+      Else  Physicians in Rural > 2988.0 
+       Predict: 4.9397918698480225E8
+    Else  CPI > 115.45 
+     If  Population: Labor force participation  %  <= 0.6174999999999999 
+      If  CPI <= 116.7 
+       Predict: 5.0060463526379395E8
+      Else  CPI > 116.7 
+       Predict: 2.1319145681840134E8
+     Else  Population: Labor force participation  %  > 0.6174999999999999 
+      Predict: 1.1677180225644531E9
+  Tree 20  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  Population <= 5611941.5 
+      If  Population: Labor force participation  %  <= 0.586 
+       Predict: -3.582527494731827E8
+      Else  Population: Labor force participation  %  > 0.586 
+       Predict: 3.613121283851382E8
+     Else  Population > 5611941.5 
+      If  Agricultural Land  %  <= 0.3975 
+       Predict: -4.006881356920369E8
+      Else  Agricultural Land  %  > 0.3975 
+       Predict: -1.6282914252033691E9
+    Else  Urban_population > 7320367.5 
+     If  Physicians per thousand <= 4.37 
+      Predict: 4.004837082110596E8
+     Else  Physicians per thousand > 4.37 
+      Predict: 9.785048527041016E8
+  Tree 21  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 7.828038821633301E8
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 1.9683150624786377E8
+     Else  CPI > 110.1 
+      If  CPI <= 111.69999999999999 
+       Predict: -8.503427619994456E8
+      Else  CPI > 111.69999999999999 
+       Predict: -3.9179774993668795E7
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 2.96 
+      Predict: 8.619119923745117E8
+     Else  Physicians per thousand > 2.96 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 3.2038696656884766E8
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: 1.7449076618544006E8
+  Tree 22  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 6.115708382746649E7
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -7.470348512233887E8
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians in Rural <= 8833.5 
+       Predict: 3.1798259865919495E8
+      Else  Physicians in Rural > 8833.5 
+       Predict: -3.7816440167266846E8
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 2.96 
+      Predict: 6.895295938996582E8
+     Else  Physicians per thousand > 2.96 
+      If  CPI <= 116.7 
+       Predict: 2.5630957325506592E8
+      Else  CPI > 116.7 
+       Predict: 1.3959261294836426E8
+  Tree 23  weight 0.1 :
+    If  Agricultural Land  %  <= 0.536 
+     If  Population: Labor force participation  %  <= 0.5894999999999999 
+      If  Physicians per thousand <= 3.045 
+       Predict: 2.3994971624542236E7
+      Else  Physicians per thousand > 3.045 
+       Predict: -3.4160909522830963E8
+     Else  Population: Labor force participation  %  > 0.5894999999999999 
+      If  Physicians per thousand <= 2.605 
+       Predict: -4.2903935629956055E8
+      Else  Physicians per thousand > 2.605 
+       Predict: 2.384597242177161E8
+    Else  Agricultural Land  %  > 0.536 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      Predict: 1.637423989083252E8
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      Predict: -9.831576175181885E8
+  Tree 24  weight 0.1 :
+    If  Urban_population <= 8130774.5 
+     If  CPI <= 115.45 
+      If  Population: Labor force participation  %  <= 0.6214999999999999 
+       Predict: -2.4921256738274712E7
+      Else  Population: Labor force participation  %  > 0.6214999999999999 
+       Predict: -5.648787895270996E8
+     Else  CPI > 115.45 
+      If  Population: Labor force participation  %  <= 0.6174999999999999 
+       Predict: 9.510666826359303E7
+      Else  Population: Labor force participation  %  > 0.6174999999999999 
+       Predict: 5.039317302762451E8
+    Else  Urban_population > 8130774.5 
+     Predict: 5.149546411553955E8
+  Tree 25  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Physicians per thousand <= 2.605 
+      Predict: -2.3025572713427734E8
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 2.2445266568182373E8
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 4.0755454857263184E8
+    Else  Agricultural Land  %  > 0.261 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -1.7080860700756326E8
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 6.2778353573195934E7
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -6.735503361091309E8
+  Tree 26  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -1.8420458170739746E8
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 1.1895204129714203E8
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 3.260436388581543E8
+    Else  Agricultural Land  %  > 0.2915 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -2.3414130343348694E8
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 5.0222682858566605E7
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -5.388402688873291E8
+  Tree 27  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Population: Labor force participation  %  <= 0.6725 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 9.516163303772736E7
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 2.6083491108654785E8
+     Else  Population: Labor force participation  %  > 0.6725 
+      Predict: -1.473636653659668E8
+    Else  Agricultural Land  %  > 0.2915 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -1.8731304274678802E8
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 4.017814628687175E7
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -4.310722151098633E8
+  Tree 28  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Physicians per thousand <= 2.605 
+      Predict: -1.1789093229272461E8
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 1.3673939767852783E8
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 2.086679288692627E8
+    Else  Agricultural Land  %  > 0.261 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Agricultural Land  %  <= 0.42600000000000005 
+       Predict: -4.348106121867698E7
+      Else  Agricultural Land  %  > 0.42600000000000005 
+       Predict: 1.06520438747406E8
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -3.448577720878906E8
+  Tree 29  weight 0.1 :
+    If  Physicians in Rural <= 2988.0 
+     If  CPI <= 111.69999999999999 
+      If  Gross tertiary education enrollment  %  <= 0.796 
+       Predict: -1.802317958438568E8
+      Else  Gross tertiary education enrollment  %  > 0.796 
+       Predict: -2.758862176702881E8
+     Else  CPI > 111.69999999999999 
+      If  Physicians in Rural <= 2327.0 
+       Predict: -2.5276950877224207E7
+      Else  Physicians in Rural > 2327.0 
+       Predict: 1.625251787437744E8
+    Else  Physicians in Rural > 2988.0 
+     If  Physicians per thousand <= 4.87 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 1.7134350744714355E8
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 7.600991189105988E7
+     Else  Physicians per thousand > 4.87 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -1.020766480635376E8
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 2.139413133190918E7
+  Tree 30  weight 0.1 :
+    If  Physicians in Rural <= 2988.0 
+     If  Physicians in Rural <= 2758.0 
+      If  CPI <= 117.5 
+       Predict: -2.0221560701786518E7
+      Else  CPI > 117.5 
+       Predict: 1.3002014299499512E8
+     Else  Physicians in Rural > 2758.0 
+      If  CPI <= 110.5 
+       Predict: -2.2070897413623047E8
+      Else  CPI > 110.5 
+       Predict: -1.4418543667507935E8
+    Else  Physicians in Rural > 2988.0 
+     If  Population: Labor force participation  %  <= 0.5894999999999999 
+      If  Physicians per thousand <= 3.045 
+       Predict: 9013445.047363281
+      Else  Physicians per thousand > 3.045 
+       Predict: -8.166131845080566E7
+     Else  Population: Labor force participation  %  > 0.5894999999999999 
+      If  Agricultural Land  %  <= 0.261 
+       Predict: 1.1563217086117554E8
+      Else  Agricultural Land  %  > 0.261 
+       Predict: 5.238134743499756E7
+  Tree 31  weight 0.1 :
+    If  Physicians in Rural <= 2988.0 
+     If  CPI <= 111.69999999999999 
+      If  CPI <= 110.5 
+       Predict: -1.7656717930895996E8
+      Else  CPI > 110.5 
+       Predict: -1.1534834934005737E8
+     Else  CPI > 111.69999999999999 
+      If  CPI <= 115.45 
+       Predict: -3.2818980118213337E7
+      Else  CPI > 115.45 
+       Predict: 6.888203025247192E7
+    Else  Physicians in Rural > 2988.0 
+     If  Physicians per thousand <= 4.87 
+      If  Physicians per thousand <= 3.045 
+       Predict: 7210756.037887573
+      Else  Physicians per thousand > 3.045 
+       Predict: 7.60219179108429E7
+     Else  Physicians per thousand > 4.87 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -6.532905476062012E7
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 6639035.578613281
+  Tree 32  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  Population <= 5611941.5 
+      If  Population <= 4537284.5 
+       Predict: -1.3330967874440765E7
+      Else  Population > 4537284.5 
+       Predict: 6.308467902988688E7
+     Else  Population > 5611941.5 
+      If  Physicians per thousand <= 4.0649999999999995 
+       Predict: -1.0995149547094727E8
+      Else  Physicians per thousand > 4.0649999999999995 
+       Predict: -2.3476007672790527E7
+    Else  Urban_population > 7320367.5 
+     If  Physicians per thousand <= 4.37 
+      Predict: 4.55118203671875E7
+     Else  Physicians per thousand > 4.37 
+      Predict: 9.874398820336914E7
+  Tree 33  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  Population <= 5611941.5 
+      If  Urban_population <= 1224798.5 
+       Predict: -2.813213451210022E7
+      Else  Urban_population > 1224798.5 
+       Predict: 3.649515234203491E7
+     Else  Population > 5611941.5 
+      If  CPI <= 110.5 
+       Predict: -1.1926344435290527E8
+      Else  CPI > 110.5 
+       Predict: -3.1406853559000652E7
+    Else  Urban_population > 7320367.5 
+     If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+      Predict: 7.899519056274414E7
+     Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+      Predict: 3.640945629376221E7
+  Tree 34  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.7285 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -4.128667156213379E7
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 1135767.936782837
+     Else  Gross tertiary education enrollment  %  > 0.7285 
+      Predict: -8.398605899473572E7
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Agricultural Land  %  <= 0.536 
+      If  Population: Labor force participation  %  <= 0.6725 
+       Predict: 3.083570641649723E7
+      Else  Population: Labor force participation  %  > 0.6725 
+       Predict: -5.03775776887207E7
+     Else  Agricultural Land  %  > 0.536 
+      If  Gross tertiary education enrollment  %  <= 0.782 
+       Predict: 2.3239644459594727E7
+      Else  Gross tertiary education enrollment  %  > 0.782 
+       Predict: -9.54107554822998E7
+  Tree 35  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Physicians in Rural <= 2988.0 
+      If  Population <= 2000367.5 
+       Predict: 4435405.160244306
+      Else  Population > 2000367.5 
+       Predict: -6.127317124421692E7
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -1.6060361450134277E7
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 2.7695484072924804E7
+    Else  CPI > 119.19999999999999 
+     Predict: 6.415660078771973E7
+  Tree 36  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Physicians per thousand <= 2.605 
+      Predict: -2.804742790209961E7
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 2.4236513637939453E7
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 5.140759749121094E7
+    Else  Agricultural Land  %  > 0.261 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -2.6876930422383625E7
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 7616746.781016191
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -6.407397013696289E7
+  Tree 37  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -2.2437942321655273E7
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 1.4442641817131042E7
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 4.112607799291992E7
+    Else  Agricultural Land  %  > 0.2915 
+     If  CPI <= 111.69999999999999 
+      If  Agricultural Land  %  <= 0.6325000000000001 
+       Predict: -4.175329394909159E7
+      Else  Agricultural Land  %  > 0.6325000000000001 
+       Predict: 1.1529269396850586E7
+     Else  CPI > 111.69999999999999 
+      If  Population <= 8965183.5 
+       Predict: 2283284.392775774
+      Else  Population > 8965183.5 
+       Predict: 1.5897977580932617E7
+  Tree 38  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians in Rural <= 15.5 
+      Predict: -1.7950353857299805E7
+     Else  Physicians in Rural > 15.5 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 1.1554113453720093E7
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 3.290086239428711E7
+    Else  Agricultural Land  %  > 0.2915 
+     If  CPI <= 111.69999999999999 
+      If  Physicians in Rural <= 2988.0 
+       Predict: -4.205834269623566E7
+      Else  Physicians in Rural > 2988.0 
+       Predict: -3433902.2839660645
+     Else  CPI > 111.69999999999999 
+      If  Population <= 8965183.5 
+       Predict: 1826627.5142242908
+      Else  Population > 8965183.5 
+       Predict: 1.27183820647583E7
+  Tree 39  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -1.436028308581543E7
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 9243290.7629776
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 2.6320689915405273E7
+    Else  Agricultural Land  %  > 0.2915 
+     If  CPI <= 111.69999999999999 
+      If  Agricultural Land  %  <= 0.6325000000000001 
+       Predict: -2.756592931417338E7
+      Else  Agricultural Land  %  > 0.6325000000000001 
+       Predict: 9910195.974243164
+     Else  CPI > 111.69999999999999 
+      If  Population <= 994965.5 
+       Predict: -1165085.9701051712
+      Else  Population > 994965.5 
+       Predict: 6116695.212519328
+  Tree 40  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Population: Labor force participation  %  <= 0.6725 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 1.2341201703613281E7
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 2.1056551932373047E7
+     Else  Population: Labor force participation  %  > 0.6725 
+      Predict: -1.148822646862793E7
+    Else  Agricultural Land  %  > 0.261 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -1.1575501306386312E7
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 3457347.9562241235
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -2.898366291772461E7
+  Tree 41  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Population: Labor force participation  %  <= 0.6725 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 7318062.570671082
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 1.6845241545898438E7
+     Else  Population: Labor force participation  %  > 0.6725 
+      Predict: -9190581.174926758
+    Else  Agricultural Land  %  > 0.2915 
+     If  Physicians per thousand <= 3.1399999999999997 
+      Predict: -2.49682134092865E7
+     Else  Physicians per thousand > 3.1399999999999997 
+      If  Population: Labor force participation  %  <= 0.6214999999999999 
+       Predict: 1288445.2407900947
+      Else  Population: Labor force participation  %  > 0.6214999999999999 
+       Predict: -2.3186930334228516E7
+  Tree 42  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Population: Labor force participation  %  <= 0.6725 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 5854450.056526184
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 1.3476193236694336E7
+     Else  Population: Labor force participation  %  > 0.6725 
+      Predict: -7352464.939941406
+    Else  Agricultural Land  %  > 0.2915 
+     If  Population: Labor force participation  %  <= 0.586 
+      Predict: -1.997457072743225E7
+     Else  Population: Labor force participation  %  > 0.586 
+      If  Population: Labor force participation  %  <= 0.6214999999999999 
+       Predict: 1030756.192615509
+      Else  Population: Labor force participation  %  > 0.6214999999999999 
+       Predict: -1.8549544267333984E7
+  Tree 43  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Physicians per thousand <= 3.045 
+      Predict: 2128661.2529907227
+     Else  Physicians per thousand > 3.045 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -8039993.791137695
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: -1.5979656581939697E7
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Physicians in Rural <= 2858.0 
+      If  CPI <= 115.45 
+       Predict: -6224091.16843605
+      Else  CPI > 115.45 
+       Predict: 7129568.959911346
+     Else  Physicians in Rural > 2858.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 8167658.480194092
+      Else  Physicians per thousand > 4.87 
+       Predict: -142418.04663085938
+  Tree 44  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -4637153.718261719
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 3653928.0719070435
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 9251231.845336914
+    Else  Agricultural Land  %  > 0.2915 
+     If  CPI <= 111.69999999999999 
+      If  CPI <= 107.4 
+       Predict: 5139315.205444336
+      Else  CPI > 107.4 
+       Predict: -1.093684582620748E7
+     Else  CPI > 111.69999999999999 
+      If  Population <= 8965183.5 
+       Predict: 83882.78041577339
+      Else  Population > 8965183.5 
+       Predict: 6162525.0353393555
+  Tree 45  weight 0.1 :
+    If  Physicians in Rural <= 2988.0 
+     If  CPI <= 111.69999999999999 
+      If  Gross tertiary education enrollment  %  <= 0.796 
+       Predict: -1.059635610031128E7
+      Else  Gross tertiary education enrollment  %  > 0.796 
+       Predict: -1.1407448014892578E7
+     Else  CPI > 111.69999999999999 
+      If  CPI <= 117.5 
+       Predict: -827646.7709851265
+      Else  CPI > 117.5 
+       Predict: 7422477.567260742
+    Else  Physicians in Rural > 2988.0 
+     If  Physicians per thousand <= 4.87 
+      If  Physicians per thousand <= 3.045 
+       Predict: 972143.3880157471
+      Else  Physicians per thousand > 3.045 
+       Predict: 5323776.776245117
+     Else  Physicians per thousand > 4.87 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -4244625.867675781
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: -130710.99328613281
+  Tree 46  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  Population <= 5611941.5 
+      If  Urban_population <= 1224798.5 
+       Predict: -3288233.3748900094
+      Else  Urban_population > 1224798.5 
+       Predict: 3171023.7885650634
+     Else  Population > 5611941.5 
+      If  Agricultural Land  %  <= 0.3975 
+       Predict: -2348154.3697306314
+      Else  Agricultural Land  %  > 0.3975 
+       Predict: -9125958.411865234
+    Else  Urban_population > 7320367.5 
+     If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+      Predict: 6314738.030151367
+     Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+      Predict: 3865264.673034668
+  Tree 47  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.7285 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -2926069.8201904297
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 143509.9527130127
+     Else  Gross tertiary education enrollment  %  > 0.7285 
+      Predict: -7819438.205276489
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Physicians in Rural <= 2858.0 
+      If  Population <= 5434105.0 
+       Predict: 1720147.460410595
+      Else  Population > 5434105.0 
+       Predict: -5187664.737976074
+     Else  Physicians in Rural > 2858.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 3432918.9069976807
+      Else  Physicians per thousand > 4.87 
+       Predict: 365062.0792236328
+  Tree 48  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Physicians per thousand <= 2.605 
+      Predict: -2037029.798828125
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 2488597.632751465
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 4662477.223388672
+    Else  Agricultural Land  %  > 0.261 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -2827199.486063639
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 828051.6599391302
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -6263233.781860352
+  Tree 49  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -1629623.8391113281
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 1335562.9827957153
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 3729981.7786865234
+    Else  Agricultural Land  %  > 0.2915 
+     If  Physicians per thousand <= 3.1399999999999997 
+      Predict: -5690110.667007446
+     Else  Physicians per thousand > 3.1399999999999997 
+      If  Population: Labor force participation  %  <= 0.6214999999999999 
+       Predict: 314176.00124549866
+      Else  Population: Labor force participation  %  > 0.6214999999999999 
+       Predict: -5010587.025512695
+  Tree 50  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -840323.6714636484
+      Else  Physicians in Rural > 1023.5 
+       Predict: -4280279.076980591
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians in Rural <= 8833.5 
+       Predict: 1580269.5881385803
+      Else  Physicians in Rural > 8833.5 
+       Predict: -1838251.1591796875
+    Else  CPI > 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.834 
+      If  Physicians per thousand <= 2.96 
+       Predict: 3281256.0036621094
+      Else  Physicians per thousand > 2.96 
+       Predict: 2177182.4248046875
+     Else  Gross tertiary education enrollment  %  > 0.834 
+      If  Physicians per thousand <= 3.25 
+       Predict: 1076659.415649414
+      Else  Physicians per thousand > 3.25 
+       Predict: 63604.131103515625
+  Tree 51  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.7285 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -1470600.927368164
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 97081.34519958496
+     Else  Gross tertiary education enrollment  %  > 0.7285 
+      Predict: -3696032.7182006836
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Physicians in Rural <= 2858.0 
+      If  CPI <= 115.45 
+       Predict: -1292297.654120922
+      Else  CPI > 115.45 
+       Predict: 1743166.1677474976
+     Else  Physicians in Rural > 2858.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 1675381.8191833496
+      Else  Physicians per thousand > 4.87 
+       Predict: 50883.304931640625
+  Tree 52  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Physicians per thousand <= 2.605 
+      Predict: -877174.8061523438
+     Else  Physicians per thousand > 2.605 
+      If  Gross tertiary education enrollment  %  <= 0.834 
+       Predict: 2155978.0651245117
+      Else  Gross tertiary education enrollment  %  > 0.834 
+       Predict: 1072635.2282104492
+    Else  Agricultural Land  %  > 0.261 
+     If  Population: Labor force participation  %  <= 0.6214999999999999 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -1351880.6134287517
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 407029.9270512263
+     Else  Population: Labor force participation  %  > 0.6214999999999999 
+      Predict: -2893954.2740478516
+  Tree 53  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  CPI <= 119.19999999999999 
+      If  Physicians in Rural <= 2988.0 
+       Predict: -966516.7310291926
+      Else  Physicians in Rural > 2988.0 
+       Predict: 204854.3783416748
+     Else  CPI > 119.19999999999999 
+      Predict: 1845175.9564208984
+    Else  Urban_population > 7320367.5 
+     If  Physicians per thousand <= 4.37 
+      Predict: 1325263.5905761719
+     Else  Physicians per thousand > 4.37 
+      Predict: 1604388.9477539062
+  Tree 54  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Population <= 3077723.0 
+      Predict: -2493146.705673218
+     Else  Population > 3077723.0 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -947075.4948730469
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 307070.32316589355
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Agricultural Land  %  <= 0.536 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -216288.3966849645
+      Else  Physicians in Rural > 1023.5 
+       Predict: 863320.2575632731
+     Else  Agricultural Land  %  > 0.536 
+      If  Gross tertiary education enrollment  %  <= 0.782 
+       Predict: 723955.5953369141
+      Else  Gross tertiary education enrollment  %  > 0.782 
+       Predict: -2121860.072998047
+  Tree 55  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Population <= 3077723.0 
+      Predict: -1994517.3645324707
+     Else  Population > 3077723.0 
+      If  Physicians per thousand <= 3.045 
+       Predict: 245656.2585296631
+      Else  Physicians per thousand > 3.045 
+       Predict: -757660.3958740234
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Agricultural Land  %  <= 0.536 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -173030.7173535029
+      Else  Physicians in Rural > 1023.5 
+       Predict: 690656.2060496012
+     Else  Agricultural Land  %  > 0.536 
+      If  Gross tertiary education enrollment  %  <= 0.782 
+       Predict: 579164.4763183594
+      Else  Gross tertiary education enrollment  %  > 0.782 
+       Predict: -1697488.0583496094
+  Tree 56  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -430572.6760253906
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 351433.5104904175
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 1069030.6689453125
+    Else  Agricultural Land  %  > 0.2915 
+     If  Population: Labor force participation  %  <= 0.586 
+      Predict: -1595613.89163208
+     Else  Population: Labor force participation  %  > 0.586 
+      If  Population: Labor force participation  %  <= 0.6214999999999999 
+       Predict: 77606.95080907004
+      Else  Population: Labor force participation  %  > 0.6214999999999999 
+       Predict: -1357990.4466552734
+  Tree 57  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Physicians per thousand <= 3.045 
+      Predict: 126238.30471801758
+     Else  Physicians per thousand > 3.045 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -621649.7068481445
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: -1276491.1133117676
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Population <= 8965183.5 
+      If  Population <= 5611941.5 
+       Predict: 352989.3320841789
+      Else  Population > 5611941.5 
+       Predict: -612945.7993570963
+     Else  Population > 8965183.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 758909.7316894531
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 733894.1895751953
+  Tree 58  weight 0.1 :
+    If  Agricultural Land  %  <= 0.2915 
+     If  Physicians per thousand <= 2.605 
+      Predict: -221868.98095703125
+     Else  Physicians per thousand > 2.605 
+      If  Population: Labor force participation  %  <= 0.5985 
+       Predict: 233224.04472351074
+      Else  Population: Labor force participation  %  > 0.5985 
+       Predict: 744034.6287841797
+    Else  Agricultural Land  %  > 0.2915 
+     If  Population: Labor force participation  %  <= 0.5894999999999999 
+      If  Physicians per thousand <= 3.1399999999999997 
+       Predict: -1021192.8906555176
+      Else  Physicians per thousand > 3.1399999999999997 
+       Predict: -497319.7655029297
+     Else  Population: Labor force participation  %  > 0.5894999999999999 
+      If  Population: Labor force participation  %  <= 0.6214999999999999 
+       Predict: 124944.58129962285
+      Else  Population: Labor force participation  %  > 0.6214999999999999 
+       Predict: -963803.1973876953
+  Tree 59  weight 0.1 :
+    If  Agricultural Land  %  <= 0.261 
+     If  Physicians per thousand <= 2.605 
+      Predict: -177495.18481445312
+     Else  Physicians per thousand > 2.605 
+      If  Physicians per thousand <= 2.96 
+       Predict: 732134.5463867188
+      Else  Physicians per thousand > 2.96 
+       Predict: 388566.7481689453
+    Else  Agricultural Land  %  > 0.261 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Agricultural Land  %  <= 0.42600000000000005 
+       Predict: -137606.842222929
+      Else  Agricultural Land  %  > 0.42600000000000005 
+       Predict: 457174.92181396484
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Gross tertiary education enrollment  %  <= 0.813 
+       Predict: -793998.4351959229
+      Else  Gross tertiary education enrollment  %  > 0.813 
+       Predict: -53849.2310256958
+  Tree 60  weight 0.1 :
+    If  Urban_population <= 7320367.5 
+     If  Physicians per thousand <= 3.91 
+      If  Urban_population <= 1224798.5 
+       Predict: -270009.7599789302
+      Else  Urban_population > 1224798.5 
+       Predict: 206820.74064381918
+     Else  Physicians per thousand > 3.91 
+      If  Population: Labor force participation  %  <= 0.6074999999999999 
+       Predict: -334975.6269836426
+      Else  Population: Labor force participation  %  > 0.6074999999999999 
+       Predict: -612242.8708496094
+    Else  Urban_population > 7320367.5 
+     If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+      Predict: 380607.5100097656
+     Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+      Predict: 470691.4510498047
+  Tree 61  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Urban_population <= 7320367.5 
+      If  Population <= 5611941.5 
+       Predict: -2323.865973200117
+      Else  Population > 5611941.5 
+       Predict: -302278.89892578125
+     Else  Urban_population > 7320367.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 304486.0080566406
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 376553.1608276367
+    Else  CPI > 119.19999999999999 
+     Predict: 544343.4890136719
+  Tree 62  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Population <= 3077723.0 
+      Predict: -603687.9002990723
+     Else  Population > 3077723.0 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -242883.53869628906
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 40967.82832336426
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  CPI <= 119.19999999999999 
+      If  Physicians in Rural <= 2858.0 
+       Predict: -84525.1143119812
+      Else  Physicians in Rural > 2858.0 
+       Predict: 158550.87825927735
+     Else  CPI > 119.19999999999999 
+      Predict: 435474.7912597656
+  Tree 63  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.7285 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -194306.8309326172
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 32774.26266479492
+     Else  Gross tertiary education enrollment  %  > 0.7285 
+      Predict: -482950.32023620605
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  Population <= 5611941.5 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: -4565.579171657562
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: 223628.03278541565
+     Else  Population > 5611941.5 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 240705.49188232422
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: -240769.6892903646
+  Tree 64  weight 0.1 :
+    If  Population: Labor force participation  %  <= 0.5894999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.7285 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -155445.4647216797
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: 26219.410125732422
+     Else  Gross tertiary education enrollment  %  > 0.7285 
+      Predict: -386360.25619506836
+    Else  Population: Labor force participation  %  > 0.5894999999999999 
+     If  CPI <= 119.19999999999999 
+      If  Population <= 8965183.5 
+       Predict: -21649.58781337738
+      Else  Population > 8965183.5 
+       Predict: 192564.39349365234
+     Else  CPI > 119.19999999999999 
+      Predict: 303654.2264404297
+  Tree 65  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  Physicians per thousand <= 3.045 
+       Predict: 20975.528106689453
+      Else  Physicians per thousand > 3.045 
+       Predict: 136503.91900634766
+     Else  CPI > 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -124356.37176513672
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: -334518.9217529297
+    Else  CPI > 111.69999999999999 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -17386.909788767498
+      Else  Physicians in Rural > 1023.5 
+       Predict: 175740.9509601593
+     Else  Physicians per thousand > 4.37 
+      Predict: -151392.22509765625
+  Tree 66  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  Physicians per thousand <= 3.045 
+       Predict: 16780.422485351562
+      Else  Physicians per thousand > 3.045 
+       Predict: 109203.1351928711
+     Else  CPI > 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.64 
+       Predict: -99485.09741210938
+      Else  Gross tertiary education enrollment  %  > 0.64 
+       Predict: -267615.1374282837
+    Else  CPI > 111.69999999999999 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -13909.527830759684
+      Else  Physicians in Rural > 1023.5 
+       Predict: 140592.76077270508
+     Else  Physicians per thousand > 4.37 
+      Predict: -121113.78002929688
+  Tree 67  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Agricultural Land  %  <= 0.42600000000000005 
+       Predict: 4758.597267341614
+      Else  Agricultural Land  %  > 0.42600000000000005 
+       Predict: 109126.70349121094
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Gross tertiary education enrollment  %  <= 0.866 
+       Predict: -143082.8985748291
+      Else  Gross tertiary education enrollment  %  > 0.866 
+       Predict: 75314.28108215332
+    Else  CPI > 119.19999999999999 
+     Predict: 179656.6387939453
+  Tree 68  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  Physicians per thousand <= 3.045 
+       Predict: 12472.618530273438
+      Else  Physicians per thousand > 3.045 
+       Predict: 75973.97802734375
+     Else  CPI > 110.1 
+      If  Physicians per thousand <= 4.0649999999999995 
+       Predict: -185475.53024291992
+      Else  Physicians per thousand > 4.0649999999999995 
+       Predict: -80539.7974243164
+    Else  CPI > 111.69999999999999 
+     If  CPI <= 119.19999999999999 
+      If  Physicians per thousand <= 4.37 
+       Predict: 35269.902759075165
+      Else  Physicians per thousand > 4.37 
+       Predict: -68274.4443359375
+     Else  CPI > 119.19999999999999 
+      Predict: 143725.31103515625
+  Tree 69  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  CPI <= 111.69999999999999 
+       Predict: -148380.42417907715
+      Else  CPI > 111.69999999999999 
+       Predict: -9277.222578048706
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 43561.7320022583
+      Else  Physicians per thousand > 4.87 
+       Predict: -64431.837951660156
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Gross tertiary education enrollment  %  <= 0.834 
+       Predict: 102856.2805480957
+      Else  Gross tertiary education enrollment  %  > 0.834 
+       Predict: 63684.42021942139
+     Else  Physicians per thousand > 4.37 
+      Predict: -54619.555419921875
+  Tree 70  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  CPI <= 111.69999999999999 
+       Predict: -118704.33934020996
+      Else  CPI > 111.69999999999999 
+       Predict: -7421.778081893921
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -25139.860961914062
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 46043.931315104164
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 94408.99267578125
+      Else  Physicians per thousand > 2.96 
+       Predict: 60554.29619598389
+     Else  Physicians per thousand > 4.37 
+      Predict: -43695.644287109375
+  Tree 71  weight 0.1 :
+    If  CPI <= 115.45 
+     If  CPI <= 110.1 
+      If  CPI <= 109.0 
+       Predict: 42858.04968261719
+      Else  CPI > 109.0 
+       Predict: 6293.720611572266
+     Else  CPI > 110.1 
+      If  CPI <= 111.69999999999999 
+       Predict: -78814.81368509929
+      Else  CPI > 111.69999999999999 
+       Predict: 1744.2670981884003
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Gross tertiary education enrollment  %  <= 0.834 
+       Predict: 66788.69552612305
+      Else  Gross tertiary education enrollment  %  > 0.834 
+       Predict: 38836.67694091797
+     Else  Physicians per thousand > 4.37 
+      Predict: -34956.515380859375
+  Tree 72  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -6286.275885264079
+      Else  Physicians in Rural > 1023.5 
+       Predict: -79200.50868988037
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 24512.084575653076
+      Else  Physicians per thousand > 4.87 
+       Predict: -30754.53546142578
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Population: Labor force participation  %  <= 0.6174999999999999 
+       Predict: 37880.89971923828
+      Else  Population: Labor force participation  %  > 0.6174999999999999 
+       Predict: 62169.45495605469
+     Else  Physicians per thousand > 4.37 
+      Predict: -27965.212280273438
+  Tree 73  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians per thousand <= 3.5700000000000003 
+       Predict: -13254.188090085983
+      Else  Physicians per thousand > 3.5700000000000003 
+       Predict: -88791.12377929688
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -12235.534393310547
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 26102.037048339844
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Population <= 2000367.5 
+       Predict: 23493.16160583496
+      Else  Population > 2000367.5 
+       Predict: 43425.920959472656
+     Else  Physicians per thousand > 4.37 
+      Predict: -22372.169799804688
+  Tree 74  weight 0.1 :
+    If  CPI <= 119.19999999999999 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians in Rural <= 14732.5 
+       Predict: 15166.35890086492
+      Else  Physicians in Rural > 14732.5 
+       Predict: -22156.521484375
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Gross tertiary education enrollment  %  <= 0.866 
+       Predict: -35751.049812316895
+      Else  Gross tertiary education enrollment  %  > 0.866 
+       Predict: 16556.09368133545
+    Else  CPI > 119.19999999999999 
+     Predict: 41050.37976074219
+  Tree 75  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  CPI <= 109.0 
+       Predict: 21130.343627929688
+      Else  CPI > 109.0 
+       Predict: -3146.300888776779
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Physicians per thousand <= 3.91 
+       Predict: -9588.90170288086
+      Else  Physicians per thousand > 3.91 
+       Predict: -63882.68908691406
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Gross tertiary education enrollment  %  <= 0.834 
+       Predict: 29119.062896728516
+      Else  Gross tertiary education enrollment  %  > 0.834 
+       Predict: 15483.310546875
+     Else  Physicians per thousand > 4.37 
+      Predict: -10747.52587890625
+  Tree 76  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  Physicians per thousand <= 3.045 
+       Predict: 175.65484619140625
+      Else  Physicians per thousand > 3.045 
+       Predict: 16904.27490234375
+     Else  CPI > 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.796 
+       Predict: -21653.409622192383
+      Else  Gross tertiary education enrollment  %  > 0.796 
+       Predict: -51106.15124511719
+    Else  CPI > 111.69999999999999 
+     If  CPI <= 119.19999999999999 
+      If  Population: Labor force participation  %  <= 0.6065 
+       Predict: 16249.114532470703
+      Else  Population: Labor force participation  %  > 0.6065 
+       Predict: 182.8091089248657
+     Else  CPI > 119.19999999999999 
+      Predict: 27016.4912109375
+  Tree 77  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  CPI <= 109.0 
+       Predict: 13523.419921875
+      Else  CPI > 109.0 
+       Predict: 140.5238800048828
+     Else  CPI > 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.796 
+       Predict: -17322.727684020996
+      Else  Gross tertiary education enrollment  %  > 0.796 
+       Predict: -40884.92102050781
+    Else  CPI > 111.69999999999999 
+     If  Physicians per thousand <= 2.605 
+      Predict: -9763.283203125
+     Else  Physicians per thousand > 2.605 
+      If  Physicians per thousand <= 4.37 
+       Predict: 11123.479752222696
+      Else  Physicians per thousand > 4.37 
+       Predict: -8634.58251953125
+  Tree 78  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  CPI <= 111.69999999999999 
+       Predict: -25561.785789489746
+      Else  CPI > 111.69999999999999 
+       Predict: -1827.0009450912476
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -4594.155197143555
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 9695.724243164062
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 19388.4970703125
+      Else  Physicians per thousand > 2.96 
+       Predict: 12112.440631866455
+     Else  Physicians per thousand > 4.37 
+      Predict: -6907.666015625
+  Tree 79  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians per thousand <= 4.87 
+       Predict: 4370.171279144287
+      Else  Physicians per thousand > 4.87 
+       Predict: -8381.8984375
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Population <= 5761061.0 
+       Predict: -5079.3160400390625
+      Else  Population > 5761061.0 
+       Predict: -27595.57958984375
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Population <= 2000367.5 
+       Predict: 7702.902534484863
+      Else  Population > 2000367.5 
+       Predict: 13593.90005493164
+     Else  Physicians per thousand > 4.37 
+      Predict: -5526.1328125
+  Tree 80  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -1705.6692212422688
+      Else  Physicians in Rural > 1023.5 
+       Predict: -17181.9390335083
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -3274.1514282226562
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 7512.510904947917
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 12792.017578125
+      Else  Physicians per thousand > 2.96 
+       Predict: 7560.27225112915
+     Else  Physicians per thousand > 4.37 
+      Predict: -4420.90625
+  Tree 81  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Population: Labor force participation  %  <= 0.586 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 812.0461730957031
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -8851.026641845703
+     Else  Population: Labor force participation  %  > 0.586 
+      If  Population: Labor force participation  %  <= 0.6174999999999999 
+       Predict: 2917.2019691467285
+      Else  Population: Labor force participation  %  > 0.6174999999999999 
+       Predict: 8789.561645507812
+    Else  Population > 5611941.5 
+     If  Urban_population <= 7320367.5 
+      If  Urban_population <= 5157197.0 
+       Predict: -18640.075805664062
+      Else  Urban_population > 5157197.0 
+       Predict: -5225.2143147786455
+     Else  Urban_population > 7320367.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 5660.599853515625
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 7446.168029785156
+  Tree 82  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Population <= 5761061.0 
+       Predict: -2824.066361427307
+      Else  Population > 5761061.0 
+       Predict: -14912.060668945312
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 3801.5475845336914
+      Else  Physicians per thousand > 4.87 
+       Predict: -5005.6456298828125
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 8475.70166015625
+      Else  Physicians per thousand > 2.96 
+       Predict: 5011.88081741333
+     Else  Physicians per thousand > 4.37 
+      Predict: -2491.68212890625
+  Tree 83  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Population <= 994965.5 
+       Predict: 978.6845321655273
+      Else  Population > 994965.5 
+       Predict: -7641.343338012695
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -2057.594528198242
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 4091.8749186197915
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Population <= 2000367.5 
+       Predict: 3064.4510192871094
+      Else  Population > 2000367.5 
+       Predict: 5867.559783935547
+     Else  Physicians per thousand > 4.37 
+      Predict: -1993.345703125
+  Tree 84  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Population: Labor force participation  %  <= 0.586 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 300.84632873535156
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -4987.7393798828125
+     Else  Population: Labor force participation  %  > 0.586 
+      If  Population: Labor force participation  %  <= 0.6174999999999999 
+       Predict: 1719.812045097351
+      Else  Population: Labor force participation  %  > 0.6174999999999999 
+       Predict: 4807.9808349609375
+    Else  Population > 5611941.5 
+     If  Agricultural Land  %  <= 0.536 
+      If  Urban_population <= 7320367.5 
+       Predict: -2712.5929361979165
+      Else  Urban_population > 7320367.5 
+       Predict: 3365.4208068847656
+     Else  Agricultural Land  %  > 0.536 
+      Predict: -10401.3798828125
+  Tree 85  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  Physicians per thousand <= 3.045 
+       Predict: 240.67706298828125
+      Else  Physicians per thousand > 3.045 
+       Predict: 2662.013671875
+     Else  CPI > 110.1 
+      If  Gross tertiary education enrollment  %  <= 0.796 
+       Predict: -3520.335220336914
+      Else  Gross tertiary education enrollment  %  > 0.796 
+       Predict: -8321.103881835938
+    Else  CPI > 111.69999999999999 
+     If  Physicians per thousand <= 2.605 
+      Predict: -2407.586181640625
+     Else  Physicians per thousand > 2.605 
+      If  Physicians per thousand <= 2.96 
+       Predict: 4645.453125
+      Else  Physicians per thousand > 2.96 
+       Predict: 1259.867124716441
+  Tree 86  weight 0.1 :
+    If  CPI <= 111.69999999999999 
+     If  CPI <= 110.1 
+      If  CPI <= 109.0 
+       Predict: 2129.6109619140625
+      Else  CPI > 109.0 
+       Predict: 192.54165649414062
+     Else  CPI > 110.1 
+      If  CPI <= 110.5 
+       Predict: -6656.883056640625
+      Else  CPI > 110.5 
+       Predict: -2816.2681884765625
+    Else  CPI > 111.69999999999999 
+     If  Physicians in Rural <= 1023.5 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 187.0117917060852
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -1926.0689697265625
+     Else  Physicians in Rural > 1023.5 
+      If  Physicians per thousand <= 4.37 
+       Predict: 2673.4581241607666
+      Else  Physicians per thousand > 4.37 
+       Predict: -1304.13134765625
+  Tree 87  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -413.87878608703613
+      Else  Physicians in Rural > 1023.5 
+       Predict: -4024.1886444091797
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 1323.1438446044922
+      Else  Physicians per thousand > 4.87 
+       Predict: -1783.1582641601562
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Gross tertiary education enrollment  %  <= 0.834 
+       Predict: 2751.4839782714844
+      Else  Gross tertiary education enrollment  %  > 0.834 
+       Predict: 1320.933349609375
+     Else  Physicians per thousand > 4.37 
+      Predict: -1043.3050537109375
+  Tree 88  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Population <= 4537284.5 
+      If  Physicians per thousand <= 3.1399999999999997 
+       Predict: -1014.3142700195312
+      Else  Physicians per thousand > 3.1399999999999997 
+       Predict: 507.17235374450684
+     Else  Population > 4537284.5 
+      If  Physicians per thousand <= 2.96 
+       Predict: 2631.3741455078125
+      Else  Physicians per thousand > 2.96 
+       Predict: 1645.4491271972656
+    Else  Population > 5611941.5 
+     If  Urban_population <= 7320367.5 
+      If  Urban_population <= 5157197.0 
+       Predict: -4520.668701171875
+      Else  Urban_population > 5157197.0 
+       Predict: -1239.7500406901042
+     Else  Urban_population > 7320367.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 1053.7574462890625
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 1771.000244140625
+  Tree 89  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Population <= 4537284.5 
+      If  Physicians per thousand <= 3.1399999999999997 
+       Predict: -811.451416015625
+      Else  Physicians per thousand > 3.1399999999999997 
+       Predict: 405.73788261413574
+     Else  Population > 4537284.5 
+      If  Physicians per thousand <= 2.96 
+       Predict: 2105.099365234375
+      Else  Physicians per thousand > 2.96 
+       Predict: 1316.3592834472656
+    Else  Population > 5611941.5 
+     If  Urban_population <= 7320367.5 
+      If  Urban_population <= 5157197.0 
+       Predict: -3616.534912109375
+      Else  Urban_population > 5157197.0 
+       Predict: -991.8000691731771
+     Else  Urban_population > 7320367.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 843.0059814453125
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 1416.8001708984375
+  Tree 90  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Physicians in Rural <= 1023.5 
+       Predict: -304.0544157028198
+      Else  Physicians in Rural > 1023.5 
+       Predict: -2223.0539321899414
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 758.7843360900879
+      Else  Physicians per thousand > 4.87 
+       Predict: -980.2166137695312
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 1684.0794677734375
+      Else  Physicians per thousand > 2.96 
+       Predict: 1003.8023796081543
+     Else  Physicians per thousand > 4.37 
+      Predict: -388.3341064453125
+  Tree 91  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Urban_population <= 1224798.5 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 110.6140251159668
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -1108.2691650390625
+     Else  Urban_population > 1224798.5 
+      If  Population: Labor force participation  %  <= 0.6174999999999999 
+       Predict: 499.5407409667969
+      Else  Population: Labor force participation  %  > 0.6174999999999999 
+       Predict: 1213.7537231445312
+    Else  Population > 5611941.5 
+     If  Urban_population <= 7320367.5 
+      If  Urban_population <= 5157197.0 
+       Predict: -2448.6170654296875
+      Else  Urban_population > 5157197.0 
+       Predict: -681.9330444335938
+     Else  Urban_population > 7320367.5 
+      If  Gross tertiary education enrollment  %  <= 0.6365000000000001 
+       Predict: 522.64794921875
+      Else  Gross tertiary education enrollment  %  > 0.6365000000000001 
+       Predict: 932.6796264648438
+  Tree 92  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 88.49122047424316
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -1220.0270080566406
+     Else  Physicians in Rural > 2988.0 
+      If  Population: Labor force participation  %  <= 0.5894999999999999 
+       Predict: -322.4469985961914
+      Else  Population: Labor force participation  %  > 0.5894999999999999 
+       Predict: 626.0402221679688
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 1104.5128173828125
+      Else  Physicians per thousand > 2.96 
+       Predict: 659.8198432922363
+     Else  Physicians per thousand > 4.37 
+      Predict: -174.2806396484375
+  Tree 93  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Population <= 4537284.5 
+      If  Physicians per thousand <= 3.1399999999999997 
+       Predict: -287.6139221191406
+      Else  Physicians per thousand > 3.1399999999999997 
+       Predict: 194.37266540527344
+     Else  Population > 4537284.5 
+      If  Gross tertiary education enrollment  %  <= 0.834 
+       Predict: 797.9476928710938
+      Else  Gross tertiary education enrollment  %  > 0.834 
+       Predict: 497.301025390625
+    Else  Population > 5611941.5 
+     If  Urban_population <= 5157197.0 
+      Predict: -1714.8883056640625
+     Else  Urban_population > 5157197.0 
+      If  Urban_population <= 7320367.5 
+       Predict: -431.09617106119794
+      Else  Urban_population > 7320367.5 
+       Predict: 453.5450439453125
+  Tree 94  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Physicians in Rural <= 2988.0 
+      If  CPI <= 110.5 
+       Predict: -1371.91064453125
+      Else  CPI > 110.5 
+       Predict: -251.39941692352295
+     Else  Physicians in Rural > 2988.0 
+      If  Physicians per thousand <= 4.87 
+       Predict: 319.4106636047363
+      Else  Physicians per thousand > 4.87 
+       Predict: -497.07806396484375
+    Else  CPI > 115.45 
+     If  Physicians per thousand <= 4.37 
+      If  Physicians per thousand <= 2.96 
+       Predict: 724.020751953125
+      Else  Physicians per thousand > 2.96 
+       Predict: 463.0641059875488
+     Else  Physicians per thousand > 4.37 
+      Predict: -53.205322265625
+  Tree 95  weight 0.1 :
+    If  Population <= 5611941.5 
+     If  Population: Labor force participation  %  <= 0.586 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: 61.022735595703125
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: -534.8072662353516
+     Else  Population: Labor force participation  %  > 0.586 
+      If  Population <= 994965.5 
+       Predict: 82.198326587677
+      Else  Population > 994965.5 
+       Predict: 428.0083484649658
+    Else  Population > 5611941.5 
+     If  Urban_population <= 5157197.0 
+      Predict: -1097.528564453125
+     Else  Urban_population > 5157197.0 
+      If  Urban_population <= 7320367.5 
+       Predict: -291.431396484375
+      Else  Urban_population > 7320367.5 
+       Predict: 284.588623046875
+  Tree 96  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Population <= 5611941.5 
+      If  Population <= 4537284.5 
+       Predict: -61.87757396697998
+      Else  Population > 4537284.5 
+       Predict: 325.7843933105469
+     Else  Population > 5611941.5 
+      If  Urban_population <= 5157197.0 
+       Predict: -878.0228271484375
+      Else  Urban_population > 5157197.0 
+       Predict: -211.251953125
+    Else  CPI > 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 373.940185546875
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: 493.6148681640625
+     Else  Gross tertiary education enrollment  %  > 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.866 
+       Predict: 15.7220458984375
+      Else  Gross tertiary education enrollment  %  > 0.866 
+       Predict: 224.4430160522461
+  Tree 97  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians per thousand <= 4.87 
+       Predict: 135.83379440307618
+      Else  Physicians per thousand > 4.87 
+       Predict: -297.1258544921875
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Gross tertiary education enrollment  %  <= 0.8494999999999999 
+       Predict: -483.80646260579425
+      Else  Gross tertiary education enrollment  %  > 0.8494999999999999 
+       Predict: 183.20013427734375
+    Else  CPI > 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 299.15216064453125
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: 394.891845703125
+     Else  Gross tertiary education enrollment  %  > 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.866 
+       Predict: 12.57763671875
+      Else  Gross tertiary education enrollment  %  > 0.866 
+       Predict: 179.55441284179688
+  Tree 98  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Physicians per thousand <= 4.87 
+       Predict: 108.6670389175415
+      Else  Physicians per thousand > 4.87 
+       Predict: -237.70068359375
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Gross tertiary education enrollment  %  <= 0.8494999999999999 
+       Predict: -387.0451304117839
+      Else  Gross tertiary education enrollment  %  > 0.8494999999999999 
+       Predict: 146.56011962890625
+    Else  CPI > 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 239.32171630859375
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: 315.9134521484375
+     Else  Gross tertiary education enrollment  %  > 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.866 
+       Predict: 10.0621337890625
+      Else  Gross tertiary education enrollment  %  > 0.866 
+       Predict: 143.6435317993164
+  Tree 99  weight 0.1 :
+    If  CPI <= 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.782 
+      If  Gross tertiary education enrollment  %  <= 0.7285 
+       Predict: -8.929427909851075
+      Else  Gross tertiary education enrollment  %  > 0.7285 
+       Predict: 289.15478515625
+     Else  Gross tertiary education enrollment  %  > 0.782 
+      If  Physicians per thousand <= 3.91 
+       Predict: -94.47077941894531
+      Else  Physicians per thousand > 3.91 
+       Predict: -528.247802734375
+    Else  CPI > 115.45 
+     If  Gross tertiary education enrollment  %  <= 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.66 
+       Predict: 191.4573974609375
+      Else  Gross tertiary education enrollment  %  > 0.66 
+       Predict: 252.730712890625
+     Else  Gross tertiary education enrollment  %  > 0.834 
+      If  Gross tertiary education enrollment  %  <= 0.866 
+       Predict: 8.0496826171875
+      Else  Gross tertiary education enrollment  %  > 0.866 
+       Predict: 114.91482543945312
+}
